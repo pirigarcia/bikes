@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Festava Live - Ticket HTML Form</title>
+        <title>BiciRutas</title>
 
         <!-- CSS FILES -->        
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,13 +21,7 @@
         <link href="css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="css/templatemo-festava-live.css" rel="stylesheet">
-<!--
 
-TemplateMo 583 Festava Live
-
-https://templatemo.com/tm-583-festava-live
-
--->
 
     </head>
     
@@ -42,7 +36,7 @@ https://templatemo.com/tm-583-festava-live
                         <div class="col-lg-12 col-12 d-flex flex-wrap">
                             <p class="d-flex me-4 mb-0">
                                 <i class="bi-person custom-icon me-2"></i>
-                                <strong class="text-dark">Welcome to Music Festival 2023</strong>
+                                <strong class="text-dark">Bienvenido!</strong>
                             </p>
                         </div>
 
@@ -54,10 +48,10 @@ https://templatemo.com/tm-583-festava-live
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
-                        Festava Live
+                        BiciRutas
                     </a>
 
-                    <a href="ticket.html" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>
+                    <a href="ticket.html" class="btn custom-btn d-lg-none ms-auto me-4">Inscribirse</a>
     
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -66,31 +60,31 @@ https://templatemo.com/tm-583-festava-live
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
+                                <a class="nav-link click-scroll" href="index.html#section_1">Inicio</a>
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_2">About</a>
+                                <a class="nav-link click-scroll" href="index.html#section_2">Acerca</a>
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_3">Artists</a>
+                                <a class="nav-link click-scroll" href="index.html#section_3">Presencia</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_4">Schedule</a>
+                                <a class="nav-link click-scroll" href="index.html#section_4">Programa</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_5">Pricing</a>
+                                <a class="nav-link click-scroll" href="index.html#section_5">Costos</a>
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_6">Contact</a>
+                                <a class="nav-link click-scroll" href="index.html#section_6">Contacto</a>
                             </li>
                         </ul>
 
-                        <a href="ticket.html" class="btn custom-btn d-lg-block d-none">Buy Ticket</a>
+                        <a href="ticket.html" class="btn custom-btn d-lg-block d-none">Inscribirse</a>
                     </div>
                 </div>
             </nav>
@@ -104,29 +98,37 @@ https://templatemo.com/tm-583-festava-live
 
                         <div class="col-lg-6 col-10 mx-auto">
                             <form class="custom-form ticket-form mb-5 mb-lg-0" action="#" method="post" role="form">
-                                <h2 class="text-center mb-4">Get started here</h2>
+                                <h2 class="text-center mb-4">Empecemos</h2>
+                                <h4>*El proceso de inscripción es personal</h4>
 
                                 <div class="ticket-form-body">
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-12">
-                                            <input type="text" name="ticket-form-name" id="ticket-form-name" class="form-control" placeholder="Full name" required>
+                                            <input type="text" name="ticket-form-name" id="ticket-form-name" class="form-control" placeholder="Nombre" required>
                                         </div>
 
                                         <div class="col-lg-6 col-md-6 col-12">
-                                            <input type="email" name="ticket-form-email" id="ticket-form-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required>
+                                            <input type="email" name="ticket-form-email" id="ticket-form-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email" required>
                                         </div>
                                     </div>
 
-                                    <input type="tel" class="form-control" name="ticket-form-phone" placeholder="Ph 085-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-12">
+                                            <input type="text" name="ticket-form-name" id="ticket-form-name" class="form-control" placeholder="De dónde nos visitas" required>
+                                        </div>
 
-                                    <h6>Choose Ticket Type</h6>
+                                    </div>
+
+                                    <input type="tel" class="form-control" name="ticket-form-phone" placeholder="Teléfono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="">
+
+                                    <h6>Elije tu BiciRuta</h6>
 
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-12">
                                             <div class="form-check form-control">
                                                 <input class="form-check-input" type="radio" name="TicketForm" id="flexRadioDefault1">
                                                 <label class="form-check-label" for="flexRadioDefault1">
-                                                    Eary bird $120
+                                                    BiciRuta Junior $700
                                                 </label>
                                             </div>
                                         </div>
@@ -135,18 +137,24 @@ https://templatemo.com/tm-583-festava-live
                                             <div class="form-check form-check-radio form-control">
                                                 <input class="form-check-input" type="radio" name="TicketForm" id="flexRadioDefault2">
                                                 <label class="form-check-label" for="flexRadioDefault2">
-                                                    Standard $240
+                                                    BiciRuta Pro $1,200
                                                 </label>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <input type="number" name="ticket-form-number" id="ticket-form-number" class="form-control" placeholder="Number of Tickets" required>
+                                    <!-- <input type="number" name="ticket-form-number" id="ticket-form-number" class="form-control" placeholder="Referencia de Pago" required> -->
 
-                                    <textarea name="ticket-form-message" rows="3" class="form-control" id="ticket-form-message" placeholder="Additional Request"></textarea>
+                                    <!-- <textarea name="ticket-form-message" rows="3" class="form-control" id="ticket-form-message" placeholder="Referencia de pago"></textarea> -->
+                                    <h6>Cta para depósitos <br>
+                                        BBVA 888999444333</h6>
+
+                                    <input type="tel" class="form-control" name="ticket-form-phone" placeholder="Referencia de Pago"  required="">
+
+                                   
 
                                     <div class="col-lg-4 col-md-10 col-8 mx-auto">
-                                        <button type="submit" class="form-control">Buy Ticket</button>
+                                        <button type="submit" class="form-control">Inscribirse</button>
                                     </div>
                                 </div>
                             </form>
